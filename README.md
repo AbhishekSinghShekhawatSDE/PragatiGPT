@@ -138,17 +138,17 @@ This project is a **client-side single-page application (SPA)**.
 **Example:**
 
 **User Input Form:**
-![User Input Form](placeholder_form_screenshot.png) <!-- Replace with your actual screenshot path -->
+![User Input Form](https://github.com/AbhishekSinghShekhawatSDE/PragatiGPT/blob/701c39290aeea26741addf3a78d7a7ce7db24062/assets/Output.png) <!-- Replace with your actual screenshot path -->
 
 **Scheme Results Output:**
-![Scheme Results Output](placeholder_results_screenshot.png) <!-- Replace with your actual screenshot path -->
+![Scheme Results Output](https://github.com/AbhishekSinghShekhawatSDE/PragatiGPT/blob/701c39290aeea26741addf3a78d7a7ce7db24062/assets/Output_results.png) <!-- Replace with your actual screenshot path -->
 
 **(Animated GIF showing the workflow would be even better!)**
 
 ## Live Demo
 
 You can view a live demo of PragatiGPT here:
-[https://your-github-username.github.io/pragatigpt/](https://your-github-username.github.io/pragatigpt/) <!-- Replace with your actual GitHub Pages URL or other deployment URL -->
+[https://your-github-username.github.io/pragatigpt/](https://abhisheksinghshekhawatsde.github.io/PragatiGPT) <!-- Replace with your actual GitHub Pages URL or other deployment URL -->
 
 ## How to Run Locally
 
