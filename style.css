@@ -520,11 +520,26 @@ header nav ul li a.active {
     background-color: #FF9933; 
 }
 
-.developer-content {
-    text-align: center;
-    max-width: 700px;
-    margin: 0 auto;
+/* New grid container to hold the developer cards */
+.developer-grid {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 40px; /* Adjust spacing between cards */
+    flex-wrap: wrap; /* This allows cards to stack on smaller screens */
 }
+
+/* This replaces the old .developer-content rule */
+.developer-card {
+    text-align: center;
+    flex: 1; /* Allows cards to share space equally */
+    min-width: 300px; /* Prevents cards from becoming too narrow */
+    max-width: 450px; /* Sets a maximum width for each card */
+}
+
+
+
+
 
 .developer-avatar {
     width: 150px;
@@ -745,3 +760,13 @@ footer {
     .logo-area h1 { font-size: 1.4em; }
     #logo-svg { height: 40px; }
 }
+@media (max-width: 992px) {
+    .developer-grid {
+        flex-direction: column; /* Stack cards vertically */
+        align-items: center;   /* Center the stacked cards */
+        gap: 30px;
+    }
+    .developer-card {
+        width: 90%; /* Make cards wider on tablet view */
+        max-width: 500px;
+    }
